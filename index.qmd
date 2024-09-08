@@ -18,37 +18,33 @@ format:
     css: styles.css 
 ---
 
-## Why are museum specimens valuable for DNA?   
+## Why are museum specimens valuable for DNA?
 
-A global spatio-temporal record of populations and species, spanning 200 years. 
+A global spatio-temporal record of populations and species, spanning 200 years.
 
-::: {.incremental}
+::: incremental
 -   useful for studying extinct, extirpated or threatened species/populations
+
 -   building baselines or study long term changes
+
 -   metagenomics
 
-
--  vertebrate bias in current musueum-based population genomic studies
+-   vertebrate bias in current musueum-based population genomic studies
 :::
 
 ## What are the issues with historical DNA (hDNA)?
 
-These are mostly similar to ancient DNA (**aDNA**) but perhaps not as exaggerated. 
+These are mostly similar to ancient DNA (**aDNA**) but perhaps not as exaggerated.
 
-
-
-![Contamination](images/hDNAcontam_lrg.jpg){.absolute bottom="475px" left="200px" width="500px"}
-![Quality](images/hDNAprobs_lrg.jpg){.absolute bottom="400px" left="800px" width="500px"}
-
+![Contamination](images/hDNAcontam_lrg.jpg){.absolute bottom="475px" left="200px" width="500px"} ![Quality](images/hDNAprobs_lrg.jpg){.absolute bottom="400px" left="800px" width="500px"}
 
 ::: {.incremental .absolute bottom="130px"}
-- [Contamination]{.b .dark-red} - multiple sources
-- [DNA fragmentation]{.b .dark-red} - typically 50 bp fragments
-- [Deamination]{.b .dark-red} at 3' and 5' ends
-- [low yield]{.b .dark-red}
-- [Choice of tissue]{.b .dark-red}
+-   [Contamination]{.b .dark-red} - multiple sources
+-   [DNA fragmentation]{.b .dark-red} - typically 50 bp fragments
+-   [Deamination]{.b .dark-red} at 3' and 5' ends
+-   [low yield]{.b .dark-red}
+-   [Choice of tissue]{.b .dark-red}
 :::
-
 
 ::: footer
 Images: [Raxworthy & Smith 2021, *TREE*](10.1016/j.tree.2021.07.009)
@@ -62,29 +58,25 @@ Images: [Raxworthy & Smith 2021, *TREE*](10.1016/j.tree.2021.07.009)
 -   [low yield]{.b .dark-red} - for our tissue (butterfly legs) a [qiagen tissuelyzer]{.b .green} prep worked best (further details in Rebecca's thesis).
 -   [DNA fragmentation]{.b .dark-red} - problematic for **illumina library preparation** - difficult to separate adapter dimers in library prep, use [beads]{.b .green} for size selection and [titration of adapter]{.b .green} to reduce adapter contamination
 
-
 ::: {layout="[[40,-10,40]]"}
-::: {.fragment}
+::: fragment
 ![](images/badlib.png){width="500px"}
 :::
-::: {.fragment}
+
+::: fragment
 ![](images/goodlib.png){width="500px"}
 :::
 :::
 
-# The last days of *Aporia crataegi* in Britain: evaluating genomic erosion in an extirpated butterfly {background-image="images/BVW_museum.jpg"  background-repeat="stretch" background-opacity="0.5"}
+# The last days of *Aporia crataegi* in Britain: evaluating genomic erosion in an extirpated butterfly {background-image="images/BVW_museum.jpg" background-repeat="stretch" background-opacity="0.5"}
 
 ::: footer
-[Whitla et al. 2024, *Mol Ecol*]( https://doi.org/10.1111/mec.17518)
+[Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
-
-
-
 
 ## A brief introduction to *Aporia crataegi* (the black-veined white)
 
-![](images/bvwdist.webp){.absolute bottom="150px" left="50px" width="700px"}
-![](images/gaurdian.png){.absolute bottom="100px" left="800px" width="700px"}
+![](images/bvwdist.webp){.absolute bottom="150px" left="50px" width="700px"} ![](images/gaurdian.png){.absolute bottom="100px" left="800px" width="700px"}
 
 ::: {.fragment .absolute bottom="50px"}
 Also extirpated in the Netherlands and South Korea
@@ -94,163 +86,154 @@ Also extirpated in the Netherlands and South Korea
 Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598-020-70957-4)
 :::
 
-## The "mysterious" disappearcne of  *Aporia crataegi* in Britain? 
+## The "mysterious" disappearance of *Aporia crataegi* in Britain?
 
-- Correspondence in the Entomologoical journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, *Entomologist's
-Rec. J. Var*)
+-   Correspondence in the Entomologoical journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, *Entomologist's Rec. J. Var*)
 
-- Record of numerous releases within the 19th century - none seem to have persisted
+-   Record of numerous releases within the 19th century - none seem to have persisted
 
-- Debate on reasons of extinction:
-  - Avian predation
-  - fungal, viral or other pathogen
-  - Series of unfavorable *wet* Septembers
-  
+-   Debate on reasons of extinction:
+
+    -   Avian predation
+    -   fungal, viral or other pathogen
+    -   Series of unfavorable *wet* Septembers
+
 > "much mystery hangs over this species" - C.G. Barrett, 1893
 
-## A genomic perspective on the mysterious disappearcne of  *Aporia crataegi* in Britain
+## A genomic perspective on the mysterious disappearcne of *Aporia crataegi* in Britain
 
 [Goals]{.b .bg-yellow}:
 
-::: {.incremental}
-- Were UK populations of *A. crataegi* distinct from European stock? Did they survive into the 20th Century?
+::: incremental
+-   Were UK populations of *A. crataegi* distinct from European stock? Did they survive into the 20th Century?
 
-- Was the decline rapid or fast? For the latter we could expect to see no **genomic erosion**
+-   Was the decline rapid or fast? For the latter we could expect to see no **genomic erosion**
 
-- Compare relative genomic erosion in UK *A. crataegi* to mainland European pop. Perform same analysis for a demographically stable species (*Polyommatus icarus*) to provide some context.
-  
-- Is there any evidence for a role of pathogen infection in the extirpation of UK butterflies?
+-   Compare relative genomic erosion in UK *A. crataegi* to mainland European pop. Perform same analysis for a demographically stable species (*Polyommatus icarus*) to provide some context.
+
+-   Is there any evidence for a role of pathogen infection in the extirpation of UK butterflies?
 :::
-
 
 ## Sampling and Methods: Field sampling
 
+![](images/Museo_de_Historia_Natural,_Londres,_Inglaterra,_2022-11-25,_DD_50-52_HDR.jpg){.absolute bottom="300px" left="50px" width="700px"} ![](images/oumnh.jpg){.absolute bottom="300px" left="800px" width="700px"}
 
-![](images/Museo_de_Historia_Natural,_Londres,_Inglaterra,_2022-11-25,_DD_50-52_HDR.jpg){.absolute bottom="300px" left="50px" width="700px"}
-![](images/oumnh.jpg){.absolute bottom="300px" left="800px" width="700px"}
-
-:::{.absolute bottom="100px" }
-- Sampled specimens only where [collection year]{.b .bg-teal} and [locality]{.b .bg-teal} was available
-- 1-2 legs per butterfly dissected 
+::: {.absolute bottom="100px"}
+-   Sampled specimens only where [collection year]{.b .bg-teal} and [locality]{.b .bg-teal} was available
+-   1-2 legs per butterfly dissected
 :::
 
 ## Sampling and Methods: Sequencing Library Prep
 
-:::{.incremental}
-- [DNA extraction:]{.b .bg-yellow}
-  + one or two legs macerated using Tissuelyser II bead mill (Qiagen) and finished with QIAamp DNA Micro kit (Qiagen)
-  
-- [Library preparation:]{.b .bg-yellow}
-  + NEBNext Ultra II DNA Library Prep Kit using a modified CUT&RUN procotol
-  + Exclusion of adapter dimers using SPRIselect beads and titrating primer content
-  + 10-12 PCR cycles depending on input template amount
-  + dual indices
-
-- [Sequencing:]{.b .bg-yellow}
-  + High quality genome assembly and annotation via Darwin Tree of Life
-  + individual libraries pooled in equimolar ratio
-  + extraction blanks pooled in 1:10 ratio for controls
-  + PE150 bp sequencing at Novogene
-
+::: incremental
+-   [DNA extraction:]{.b .bg-yellow}
+    -   one or two legs macerated using Tissuelyser II bead mill (Qiagen) and finished with QIAamp DNA Micro kit (Qiagen)
+-   [Library preparation:]{.b .bg-yellow}
+    -   NEBNext Ultra II DNA Library Prep Kit using a modified CUT&RUN procotol
+    -   Exclusion of adapter dimers using SPRIselect beads and titrating primer content
+    -   10-12 PCR cycles depending on input template amount
+    -   dual indices
+-   [Sequencing:]{.b .bg-yellow}
+    -   High quality genome assembly and annotation via Darwin Tree of Life
+    -   individual libraries pooled in equimolar ratio
+    -   extraction blanks pooled in 1:10 ratio for controls
+    -   PE150 bp sequencing at Novogene
 :::
 
-## Sampling and Methods: Data Processing  
+## Sampling and Methods: Data Processing
 
 ![](images/generode_pipeline.webp){width="700px" fig-align="center"}
 
-:::footer
+::: footer
 Images: [Kutschera et al. 2022, *BMC Bioinfo.*](https://doi.org/10.1186/s12859-022-04757-0)
 :::
 
 ## Sampling and Methods: Data Analysis
 
-:::{.incremental}
-- [Population Structure]{.b .bg-yellow} - [plinkPCA]{.prog} and [angsdPCA]{.prog} (for low coverage data)
+::: incremental
+-   [Population Structure]{.b .bg-yellow} - [plinkPCA]{.prog} and [angsdPCA]{.prog} (for low coverage data)
 
-- [Historical demography]{.b .bg-yellow} - [PSMC]{.prog} on highest coverage genomes available
+-   [Historical demography]{.b .bg-yellow} - [PSMC]{.prog} on highest coverage genomes available
 
-- [Genetic diversity]{.b .bg-yellow} - individual heterozygosity estimated with [angsd]{.prog}
+-   [Genetic diversity]{.b .bg-yellow} - individual heterozygosity estimated with [angsd]{.prog}
 
-- [Inbreeding]{.b .bg-yellow} - Runs of homozygosity determined with [plinkPCA]{.prog}
+-   [Inbreeding]{.b .bg-yellow} - Runs of homozygosity determined with [plinkPCA]{.prog}
 
-- [Genetic load]{.b .bg-yellow} - predicted LOF, missense and synonymous variants with [snpEFF]{.prog}
+-   [Genetic load]{.b .bg-yellow} - predicted LOF, missense and synonymous variants with [snpEFF]{.prog}
 
-- any statistical analysis is either a *t*-test or when comparing samples with variable coverage, a linear model with coverage covariate.
+-   any statistical analysis is either a *t*-test or when comparing samples with variable coverage, a linear model with coverage covariate.
 :::
 
+## Results: [GB]{.bg-gb} *A. crataegi* are distinct from [European]{.bg-eu}
 
-## Results: [GB]{.bg-gb} *A. crataegi* are distinct from [European]{.bg-eu}  
+::: {.fragment fragment-index=1 .fade-out}
+![](images/fig1a.png){.absolute bottom="200px" left="600px" width="400px"}
+:::
 
+::: {.fragment fragment-index=2}
+![](images/fig1b.png){.absolute bottom="200px" left="600px" width="400px"}
+:::
 
-- Isolation by distance pattern within GB
-- Temporal differentiation along PC2
-- Evidence of European stock releases in late ninteenth/early 20th century
-- Oldest specimen (1924) in our sampling clusters with GB specimens
+:::{.absolute bottom="0px" .fragment fragment-index=2}
+-   Isolation by distance pattern within GB
+-   Evidence of European stock releases in late nineteenth/early 20th century
+-   Oldest specimen (1924) in our sampling clusters with GB specimens
+:::
 
 ## Results: Evidence of strong bottleneck at time of [GB]{.bg-gb} colonisation
 
+::: {.fragment fragment-index=1 }
+![](images/fig2a.png){.absolute bottom="150px" left="50px" width="700px"}
+:::
+
+::: {.fragment fragment-index=2}
+![](images/fig2b.png){.absolute bottom="130px" left="750px" width="700px"}
+:::
 
 
-
-- Bottleneck signal also present in *P. icarus* but not as strong, potential recovery
-- Difference in *P. icarus* demography potenially due to rapid colonisation? 
-
+:::{.absolute bottom="0px" .fragment fragment-index=3}
+-   Bottleneck signal also present in *P. icarus* but not as strong, potential recovery
+-   Difference in *P. icarus* demography potenially due to rapid colonisation?
+:::
 
 ## Results: *A. crataegi* and *P. icarus* show similar levels of reduction in Genetic diversity
 
+![](images/fig3ab.png){.absolute bottom="50px" left="500px" width="700px"}
 
 
+:::{.absolute bottom="0px"}
+17% reduction in [GB]{.bg-gb} *A. crataegi* and 14% *P. icarus* relative to [EU]{.bg-eu} 
+:::
 
-
-
-
-- 17% in [GB]{.bg-gb} *A. crataegi* and 14% *P. icarus* relative to [EU]{.bg-eu}
 
 ## Results: Higher levels of inbreeding in [GB]{.bg-gb} *A. crataegi*
 
 
-
-
-
-- Evidence for more recent bouts of inbreeding over the ancestral bottleneck
-- Levels of inbreeding similar to those obersved in **extinct** *Glaucopsyche xerces* (de-Dios et al. 2023, *elife*)
-
+-   Levels of inbreeding similar to those obersved in **extinct** *Glaucopsyche xerces* (de-Dios et al. 2023, *elife*)
 
 ## Results: Increase in realised genetic load in [GB]{.bg-gb} *A. crataegi*
 
-
-
-
-
-- increase in *homozygous* synonymous and missense mutations
+-   increase in *homozygous* synonymous and missense mutations
 
 ## Results: overall increase in shared derived synonymous and missense mutations n [GB]{.bg-gb} *A. crataegi*
 
-
-
-
-
-
-- still cannot detect difference in LOF mutations
+-   still cannot detect difference in LOF mutations
 
 ## Conclusions
-
 
 ## Further work: Metagenomics
 
 ## Acknowledgements
 
-::: {.columns} 
-
+::: columns
 ::: {.column width="50%"}
-
 ![](images/IMG-20230927-WA0001.jpg){width="200px"}
 
 [Rebecca Whitla]{.b .bg-yellow} (PhD student)
 
-[Collaborators]{.b .bg-yellow}: 
+[Collaborators]{.b .bg-yellow}:
 
-Prof Tim Shreeve 
+Prof Tim Shreeve
 
 Dr. Casper Breuker
 
@@ -258,9 +241,8 @@ Dr. Korneel Hens
 
 Geoff Martin (NHM, London)
 
-Dr. James Hogan (OUMNH, Oxford) 
+Dr. James Hogan (OUMNH, Oxford)
 :::
-
 
 ::: {.column width="50%"}
 [Other]{.b .bg-yellow}:
@@ -275,51 +257,40 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 
 <br>
 
-
 [More Info]{.b .bg-yellow}:
 
 [Lab]{.b}: saadarif.github.io
 
-
 [the 'scrolltelling' experience]{.b}: saadarif.github.io/BVW-LastDays
 :::
-
 :::
 
-## What is Genomic Erosion and why it matters? 
+## What is Genomic Erosion and why it matters?
 
-::: {.columns} 
-
+::: columns
 ::: {.column width="55%"}
+-   The loss of genetic fitness in small populations due to a shrinking 'gene pool', but measured by genetic variation
 
+-   The promise of conservation genomics lies in the link between genomic variation and genetic fitness, as the latter is potentially *measurable*
 
-- The loss of genetic fitness in small populations due to a shrinking 'gene pool', but measured by genetic variation
-
-- The promise of conservation genomics lies in the link between genomic variation and genetic fitness, as the latter is potentially *measurable* 
-
-
+```{=html}
 <!--::: {.fragment fragment-index=2}
 - No clear correlation between genomic erosion and conservation status
 :::-->
-
-::: {.fragment fragment-index=3}
-- lack of knowledge is more acute for invertebrates! [Evaluating genomic erosion in inverterbates with differing conservation status could improve our understanding and application of conservation genomics]{.b .dark-red} 
+```
+::: {.fragment fragment-index="3"}
+-   lack of knowledge is more acute for invertebrates! [Evaluating genomic erosion in inverterbates with differing conservation status could improve our understanding and application of conservation genomics]{.b .dark-red}
 :::
-
 :::
 
 ::: {.column width="45%"}
-
-
-
 ![](images/genomicerosiom.jpg){.absolute bottom="300px" left="1000px" width="500px"}
 
-
+```{=html}
 <!--::: {.fragment fragment-index=2}
 ![](images/teixerandhuber.jpg)
 :::-->
-
-
+```
 :::
 :::
 

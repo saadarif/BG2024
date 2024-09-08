@@ -8,7 +8,7 @@
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.555">
 
   <meta name="author" content="Saad Arif/Rebecca Whitla">
   <title>Highthroughput sequencing from museum samples</title>
@@ -157,7 +157,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -377,12 +378,12 @@ Saad Arif/Rebecca Whitla
 <li><span class="b dark-red">low yield</span> - for our tissue (butterfly legs) a <span class="b green">qiagen tissuelyzer</span> prep worked best (further details in Rebecca’s thesis).</li>
 <li><span class="b dark-red">DNA fragmentation</span> - problematic for <strong>illumina library preparation</strong> - difficult to separate adapter dimers in library prep, use <span class="b green">beads</span> for size selection and <span class="b green">titration of adapter</span> to reduce adapter contamination</li>
 </ul>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-panel" data-layout="[[40,-10,40]]">
+<div class="quarto-layout-row">
 <div class="fragment quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
 <p><img data-src="images/badlib.png" width="500"></p>
 </div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 11.1%;justify-content: center;">
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 11.1%;justify-content: flex-start;">
 <p>&nbsp;</p>
 </div>
 <div class="fragment quarto-layout-cell" style="flex-basis: 44.4%;justify-content: center;">
@@ -408,8 +409,8 @@ Saad Arif/Rebecca Whitla
 <p>Images: <a href="https://www.nature.com/articles/s41598-020-70957-4">Todisco et al 2020, <em>Sci. Rep.</em></a></p>
 </div>
 </section>
-<section id="the-mysterious-disappearcne-of-aporia-crataegi-in-britain" class="slide level2">
-<h2>The “mysterious” disappearcne of <em>Aporia crataegi</em> in Britain?</h2>
+<section id="the-mysterious-disappearance-of-aporia-crataegi-in-britain" class="slide level2">
+<h2>The “mysterious” disappearance of <em>Aporia crataegi</em> in Britain?</h2>
 <ul>
 <li><p>Correspondence in the Entomologoical journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, <em>Entomologist’s Rec. J. Var</em>)</p></li>
 <li><p>Record of numerous releases within the 19th century - none seem to have persisted</p></li>
@@ -474,7 +475,7 @@ Saad Arif/Rebecca Whitla
 <section id="sampling-and-methods-data-processing" class="slide level2">
 <h2>Sampling and Methods: Data Processing</h2>
 
-<img data-src="images/generode_pipeline.webp" width="700" class="r-stretch quarto-figure-center"><div class="footer">
+<img data-src="images/generode_pipeline.webp" class="quarto-figure quarto-figure-center r-stretch" width="700"><div class="footer">
 <p>Images: <a href="https://doi.org/10.1186/s12859-022-04757-0">Kutschera et al.&nbsp;2022, <em>BMC Bioinfo.</em></a></p>
 </div>
 </section>
@@ -493,30 +494,45 @@ Saad Arif/Rebecca Whitla
 </section>
 <section id="results-gb-a.-crataegi-are-distinct-from-european" class="slide level2">
 <h2>Results: <span class="bg-gb">GB</span> <em>A. crataegi</em> are distinct from <span class="bg-eu">European</span></h2>
+<div class="fragment fade-out" data-fragment-index="1">
+<p><img data-src="images/fig1a.png" class="absolute" style="left: 600px; bottom: 200px; width: 400px; "></p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p><img data-src="images/fig1b.png" class="absolute" style="left: 600px; bottom: 200px; width: 400px; "></p>
+</div>
+<div class="absolute fragment" data-fragment-index="2" style="bottom: 0px; ">
 <ul>
 <li>Isolation by distance pattern within GB</li>
-<li>Temporal differentiation along PC2</li>
-<li>Evidence of European stock releases in late ninteenth/early 20th century</li>
+<li>Evidence of European stock releases in late nineteenth/early 20th century</li>
 <li>Oldest specimen (1924) in our sampling clusters with GB specimens</li>
 </ul>
+</div>
 </section>
 <section id="results-evidence-of-strong-bottleneck-at-time-of-gb-colonisation" class="slide level2">
 <h2>Results: Evidence of strong bottleneck at time of <span class="bg-gb">GB</span> colonisation</h2>
+<div class="fragment" data-fragment-index="1">
+<p><img data-src="images/fig2a.png" class="absolute" style="left: 50px; bottom: 150px; width: 700px; "></p>
+</div>
+<div class="fragment" data-fragment-index="2">
+<p><img data-src="images/fig2b.png" class="absolute" style="left: 750px; bottom: 130px; width: 700px; "></p>
+</div>
+<div class="absolute fragment" data-fragment-index="3" style="bottom: 0px; ">
 <ul>
 <li>Bottleneck signal also present in <em>P. icarus</em> but not as strong, potential recovery</li>
 <li>Difference in <em>P. icarus</em> demography potenially due to rapid colonisation?</li>
 </ul>
+</div>
 </section>
 <section id="results-a.-crataegi-and-p.-icarus-show-similar-levels-of-reduction-in-genetic-diversity" class="slide level2">
 <h2>Results: <em>A. crataegi</em> and <em>P. icarus</em> show similar levels of reduction in Genetic diversity</h2>
-<ul>
-<li>17% in <span class="bg-gb">GB</span> <em>A. crataegi</em> and 14% <em>P. icarus</em> relative to <span class="bg-eu">EU</span></li>
-</ul>
+<p><img data-src="images/fig3ab.png" class="absolute" style="left: 500px; bottom: 50px; width: 700px; "></p>
+<div class="absolute" style="bottom: 0px; ">
+<p>17% reduction in <span class="bg-gb">GB</span> <em>A. crataegi</em> and 14% <em>P. icarus</em> relative to <span class="bg-eu">EU</span></p>
+</div>
 </section>
 <section id="results-higher-levels-of-inbreeding-in-gb-a.-crataegi" class="slide level2">
 <h2>Results: Higher levels of inbreeding in <span class="bg-gb">GB</span> <em>A. crataegi</em></h2>
 <ul>
-<li>Evidence for more recent bouts of inbreeding over the ancestral bottleneck</li>
 <li>Levels of inbreeding similar to those obersved in <strong>extinct</strong> <em>Glaucopsyche xerces</em> (de-Dios et al.&nbsp;2023, <em>elife</em>)</li>
 </ul>
 </section>
@@ -589,9 +605,11 @@ Saad Arif/Rebecca Whitla
 <div class="footer">
 <p>Images: <a href="https://doi.org/10.3389/fgene.2022.960958">Bosse &amp; Loon 2022, <em>Fron. Gen.</em></a></p>
 </div>
+<div class="quarto-auto-generated-content">
 <p><img src="images/OBULogo.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
+</div>
 </div>
 </section></section>
     </div>
@@ -620,7 +638,6 @@ Saad Arif/Rebecca Whitla
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -881,10 +898,27 @@ Saad Arif/Rebecca Whitla
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -894,8 +928,17 @@ Saad Arif/Rebecca Whitla
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
@@ -909,7 +952,11 @@ Saad Arif/Rebecca Whitla
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {
