@@ -144,5 +144,25 @@ $tabset-border-color: $body-color;
 }
 
 
+/* logo size*/
+.reveal .slide-logo {
+  height: 100px !important;
+  width: 150px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
 
+
+.bg-gold {
+  background-color: #FFB700;;
+}
+
+.bg-gb{
+  background-color: #003f5c ;
+  color: white;
+}
+
+.bg-eu{
+  background-color: #ffa600 ;
+}
 

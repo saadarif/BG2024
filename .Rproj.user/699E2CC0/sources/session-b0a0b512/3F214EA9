@@ -3,7 +3,7 @@
     "path": "~/Documents/Presentations/BMSSeminar2024/index.qmd",
     "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "1096618216",
+    "hash": "1814069294",
     "contents": "",
     "dirty": false,
     "created": 1725391843025.0,
@@ -17,16 +17,17 @@
         "Source": "Source",
         "docOutlineVisible": "1",
         "rmdVisualCollapsedChunks": "",
-        "cursorPosition": "159,71",
-        "scrollLine": "144",
-        "rmdVisualModeLocation": "59:0"
+        "cursorPosition": "278,25",
+        "scrollLine": "252",
+        "rmdVisualModeLocation": "59:0",
+        "docOutlineSize": "112"
     },
     "folds": "",
-    "lastKnownWriteTime": 1725567795,
+    "lastKnownWriteTime": 1725830516,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1725567795318,
+    "last_content_update": 1725830516169,
     "read_only": false,
     "read_only_alternatives": []
 }

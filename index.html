@@ -244,6 +244,7 @@
     }
     .reveal .slide:not(.center) {
       height: 100%;
+      overflow-y: auto;
     }
     .reveal .slide.scrollable {
       overflow-y: auto;
@@ -343,9 +344,10 @@ Saad Arif/Rebecca Whitla
 <p>A global spatio-temporal record of populations and species, spanning 200 years.</p>
 <div>
 <ul>
-<li class="fragment">useful for studying extinct, extirpated or threatened species/populations</li>
-<li class="fragment">building baselines or study long term changes</li>
-<li class="fragment">metagenomics</li>
+<li class="fragment"><p>useful for studying extinct, extirpated or threatened species/populations</p></li>
+<li class="fragment"><p>building baselines or study long term changes</p></li>
+<li class="fragment"><p>metagenomics</p></li>
+<li class="fragment"><p>vertebrate bias in current musueum-based population genomic studies</p></li>
 </ul>
 </div>
 </section>
@@ -359,6 +361,7 @@ Saad Arif/Rebecca Whitla
 <li class="fragment"><span class="b dark-red">DNA fragmentation</span> - typically 50 bp fragments</li>
 <li class="fragment"><span class="b dark-red">Deamination</span> at 3’ and 5’ ends</li>
 <li class="fragment"><span class="b dark-red">low yield</span></li>
+<li class="fragment"><span class="b dark-red">Choice of tissue</span></li>
 </ul>
 </div>
 <div class="footer">
@@ -368,9 +371,10 @@ Saad Arif/Rebecca Whitla
 <section id="dealing-with-hdna-extractionlibrary-prep" class="slide level2">
 <h2>Dealing with hDNA extraction/library prep</h2>
 <ul>
+<li><span class="b dark-red">Choice of tissue</span> - legs kept curator’s happy, also gave use best libraries</li>
 <li><span class="b dark-red">Contamination</span> - workspace/tools only for museum samples, run &amp; sequence <span class="b green">extraction blanks</span></li>
 <li><span class="b dark-red">Deamination</span> - can be fixed fully or partially fixed with commercially available repair enzymes. <span class="b green">Dealt with at computational stage</span>.</li>
-<li><span class="b dark-red">low yield</span> - for our tissue (butterfly legs) a <span class="b green">qiagen tissuelyzer</span> prep worked best (further details in Rebecca’s thesis)</li>
+<li><span class="b dark-red">low yield</span> - for our tissue (butterfly legs) a <span class="b green">qiagen tissuelyzer</span> prep worked best (further details in Rebecca’s thesis).</li>
 <li><span class="b dark-red">DNA fragmentation</span> - problematic for <strong>illumina library preparation</strong> - difficult to separate adapter dimers in library prep, use <span class="b green">beads</span> for size selection and <span class="b green">titration of adapter</span> to reduce adapter contamination</li>
 </ul>
 <div class="quarto-layout-panel">
@@ -394,55 +398,53 @@ Saad Arif/Rebecca Whitla
 <p><a href="https://doi.org/10.1111/mec.17518">Whitla et al.&nbsp;2024, <em>Mol Ecol</em></a></p>
 </div>
 </section>
-<section id="what-is-genomic-erosion-and-why-it-matters" class="slide level2">
-<h2>What is Genomic Erosion and why it matters?</h2>
-<div class="columns">
-<div class="column" style="width:55%;">
-<ul>
-<li><p>The loss of genetic fitness in small populations due to a shrinking ‘gene pool’, but measured by genetic variation</p></li>
-<li><p>The promise of conservation genomics lies in the link between genomic variation and genetic fitness, as the latter is potentially <em>measurable</em></p></li>
-</ul>
-<!--::: {.fragment fragment-index=2}
-- No clear correlation between genomic erosion and conservation status
-:::-->
-<div class="fragment" data-fragment-index="3">
-<ul>
-<li>lack of knowledge is more acute for invertebrates! <span class="b dark-red">Evaluating genomic erosion in inverterbates with differing conservation status could improve our understanding and application of conservation genomics</span></li>
-</ul>
-</div>
-</div><div class="column" style="width:45%;">
-<p><img data-src="images/genomicerosiom.jpg" class="absolute" style="left: 1000px; bottom: 300px; width: 500px; "></p>
-<!--::: {.fragment fragment-index=2}
-![](images/teixerandhuber.jpg)
-:::-->
-</div>
-</div>
-<div class="footer">
-<p>Images: <a href="https://doi.org/10.3389/fgene.2022.960958">Bosse &amp; Loon 2022, <em>Fron. Gen.</em></a></p>
-</div>
-</section>
 <section id="a-brief-introduction-to-aporia-crataegi-the-black-veined-white" class="slide level2">
 <h2>A brief introduction to <em>Aporia crataegi</em> (the black-veined white)</h2>
 <p><img data-src="images/bvwdist.webp" class="absolute" style="left: 50px; bottom: 150px; width: 700px; "> <img data-src="images/gaurdian.png" class="absolute" style="left: 800px; bottom: 100px; width: 700px; "></p>
+<div class="fragment absolute" style="bottom: 50px; ">
+<p>Also extirpated in the Netherlands and South Korea</p>
+</div>
 <div class="footer">
 <p>Images: <a href="https://www.nature.com/articles/s41598-020-70957-4">Todisco et al 2020, <em>Sci. Rep.</em></a></p>
 </div>
 </section>
-<section id="evaluating-genomic-erosion-in-the-extirpated-a.-crataegi-in-britain" class="slide level2">
-<h2>Evaluating genomic erosion in the extirpated <em>A. crataegi</em> in Britain</h2>
+<section id="the-mysterious-disappearcne-of-aporia-crataegi-in-britain" class="slide level2">
+<h2>The “mysterious” disappearcne of <em>Aporia crataegi</em> in Britain?</h2>
+<ul>
+<li><p>Correspondence in the Entomologoical journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, <em>Entomologist’s Rec. J. Var</em>)</p></li>
+<li><p>Record of numerous releases within the 19th century - none seem to have persisted</p></li>
+<li><p>Debate on reasons of extinction:</p>
+<ul>
+<li>Avian predation</li>
+<li>fungal, viral or other pathogen</li>
+<li>Series of unfavorable <em>wet</em> Septembers</li>
+</ul></li>
+</ul>
+<blockquote>
+<p>“much mystery hangs over this species” - C.G. Barrett, 1893</p>
+</blockquote>
+</section>
+<section id="a-genomic-perspective-on-the-mysterious-disappearcne-of-aporia-crataegi-in-britain" class="slide level2">
+<h2>A genomic perspective on the mysterious disappearcne of <em>Aporia crataegi</em> in Britain</h2>
 <p><span class="b bg-yellow">Goals</span>:</p>
 <div>
 <ul>
-<li class="fragment"><p>Determine if UK populations of <em>A. crataegi</em> were truly resident in the British Isles or migrants</p></li>
-<li class="fragment"><p>Was the decline rapid or slow?</p></li>
-<li class="fragment"><p>Compare genomic erosion in UK <em>A. crataegi</em> to mainland Europeans to determine relative extent of genomic erosion</p></li>
+<li class="fragment"><p>Were UK populations of <em>A. crataegi</em> distinct from European stock? Did they survive into the 20th Century?</p></li>
+<li class="fragment"><p>Was the decline rapid or fast? For the latter we could expect to see no <strong>genomic erosion</strong></p></li>
+<li class="fragment"><p>Compare relative genomic erosion in UK <em>A. crataegi</em> to mainland European pop. Perform same analysis for a demographically stable species (<em>Polyommatus icarus</em>) to provide some context.</p></li>
 <li class="fragment"><p>Is there any evidence for a role of pathogen infection in the extirpation of UK butterflies?</p></li>
 </ul>
 </div>
 </section>
 <section id="sampling-and-methods-field-sampling" class="slide level2">
 <h2>Sampling and Methods: Field sampling</h2>
-<p><img data-src="images/Museo_de_Historia_Natural,_Londres,_Inglaterra,_2022-11-25,_DD_50-52_HDR.jpg" class="absolute" style="left: 50px; bottom: 150px; width: 700px; "> <img data-src="images/oumnh.jpg" class="absolute" style="left: 800px; bottom: 150px; width: 700px; "></p>
+<p><img data-src="images/Museo_de_Historia_Natural,_Londres,_Inglaterra,_2022-11-25,_DD_50-52_HDR.jpg" class="absolute" style="left: 50px; bottom: 300px; width: 700px; "> <img data-src="images/oumnh.jpg" class="absolute" style="left: 800px; bottom: 300px; width: 700px; "></p>
+<div class="absolute" style="bottom: 100px; ">
+<ul>
+<li>Sampled specimens only where <span class="b bg-teal">collection year</span> and <span class="b bg-teal">locality</span> was available</li>
+<li>1-2 legs per butterfly dissected</li>
+</ul>
+</div>
 </section>
 <section id="sampling-and-methods-sequencing-library-prep" class="slide level2">
 <h2>Sampling and Methods: Sequencing Library Prep</h2>
@@ -488,8 +490,107 @@ Saad Arif/Rebecca Whitla
 <li class="fragment"><p>any statistical analysis is either a <em>t</em>-test or when comparing samples with variable coverage, a linear model with coverage covariate.</p></li>
 </ul>
 </div>
-
-<img src="images/logo.png" class="slide-logo r-stretch"><div class="footer footer-default">
+</section>
+<section id="results-gb-a.-crataegi-are-distinct-from-european" class="slide level2">
+<h2>Results: <span class="bg-gb">GB</span> <em>A. crataegi</em> are distinct from <span class="bg-eu">European</span></h2>
+<ul>
+<li>Isolation by distance pattern within GB</li>
+<li>Temporal differentiation along PC2</li>
+<li>Evidence of European stock releases in late ninteenth/early 20th century</li>
+<li>Oldest specimen (1924) in our sampling clusters with GB specimens</li>
+</ul>
+</section>
+<section id="results-evidence-of-strong-bottleneck-at-time-of-gb-colonisation" class="slide level2">
+<h2>Results: Evidence of strong bottleneck at time of <span class="bg-gb">GB</span> colonisation</h2>
+<ul>
+<li>Bottleneck signal also present in <em>P. icarus</em> but not as strong, potential recovery</li>
+<li>Difference in <em>P. icarus</em> demography potenially due to rapid colonisation?</li>
+</ul>
+</section>
+<section id="results-a.-crataegi-and-p.-icarus-show-similar-levels-of-reduction-in-genetic-diversity" class="slide level2">
+<h2>Results: <em>A. crataegi</em> and <em>P. icarus</em> show similar levels of reduction in Genetic diversity</h2>
+<ul>
+<li>17% in <span class="bg-gb">GB</span> <em>A. crataegi</em> and 14% <em>P. icarus</em> relative to <span class="bg-eu">EU</span></li>
+</ul>
+</section>
+<section id="results-higher-levels-of-inbreeding-in-gb-a.-crataegi" class="slide level2">
+<h2>Results: Higher levels of inbreeding in <span class="bg-gb">GB</span> <em>A. crataegi</em></h2>
+<ul>
+<li>Evidence for more recent bouts of inbreeding over the ancestral bottleneck</li>
+<li>Levels of inbreeding similar to those obersved in <strong>extinct</strong> <em>Glaucopsyche xerces</em> (de-Dios et al.&nbsp;2023, <em>elife</em>)</li>
+</ul>
+</section>
+<section id="results-increase-in-realised-genetic-load-in-gb-a.-crataegi" class="slide level2">
+<h2>Results: Increase in realised genetic load in <span class="bg-gb">GB</span> <em>A. crataegi</em></h2>
+<ul>
+<li>increase in <em>homozygous</em> synonymous and missense mutations</li>
+</ul>
+</section>
+<section id="results-overall-increase-in-shared-derived-synonymous-and-missense-mutations-n-gb-a.-crataegi" class="slide level2">
+<h2>Results: overall increase in shared derived synonymous and missense mutations n <span class="bg-gb">GB</span> <em>A. crataegi</em></h2>
+<ul>
+<li>still cannot detect difference in LOF mutations</li>
+</ul>
+</section>
+<section id="conclusions" class="slide level2">
+<h2>Conclusions</h2>
+</section>
+<section id="further-work-metagenomics" class="slide level2">
+<h2>Further work: Metagenomics</h2>
+</section>
+<section id="acknowledgements" class="slide level2">
+<h2>Acknowledgements</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/IMG-20230927-WA0001.jpg" width="200"></p>
+<p><span class="b bg-yellow">Rebecca Whitla</span> (PhD student)</p>
+<p><span class="b bg-yellow">Collaborators</span>:</p>
+<p>Prof Tim Shreeve</p>
+<p>Dr.&nbsp;Casper Breuker</p>
+<p>Dr.&nbsp;Korneel Hens</p>
+<p>Geoff Martin (NHM, London)</p>
+<p>Dr.&nbsp;James Hogan (OUMNH, Oxford)</p>
+</div><div class="column" style="width:50%;">
+<p><span class="b bg-yellow">Other</span>:</p>
+<p>Kornad Lohse and Darwin Tree of Life</p>
+<p><br></p>
+<p><span class="b bg-yellow">Funding</span>:</p>
+<p>Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University</p>
+<p><br></p>
+<p><span class="b bg-yellow">More Info</span>:</p>
+<p><span class="b">Lab</span>: saadarif.github.io</p>
+<p><span class="b">the ‘scrolltelling’ experience</span>: saadarif.github.io/BVW-LastDays</p>
+</div>
+</div>
+</section>
+<section id="what-is-genomic-erosion-and-why-it-matters" class="slide level2">
+<h2>What is Genomic Erosion and why it matters?</h2>
+<div class="columns">
+<div class="column" style="width:55%;">
+<ul>
+<li><p>The loss of genetic fitness in small populations due to a shrinking ‘gene pool’, but measured by genetic variation</p></li>
+<li><p>The promise of conservation genomics lies in the link between genomic variation and genetic fitness, as the latter is potentially <em>measurable</em></p></li>
+</ul>
+<!--::: {.fragment fragment-index=2}
+- No clear correlation between genomic erosion and conservation status
+:::-->
+<div class="fragment" data-fragment-index="3">
+<ul>
+<li>lack of knowledge is more acute for invertebrates! <span class="b dark-red">Evaluating genomic erosion in inverterbates with differing conservation status could improve our understanding and application of conservation genomics</span></li>
+</ul>
+</div>
+</div><div class="column" style="width:45%;">
+<p><img data-src="images/genomicerosiom.jpg" class="absolute" style="left: 1000px; bottom: 300px; width: 500px; "></p>
+<!--::: {.fragment fragment-index=2}
+![](images/teixerandhuber.jpg)
+:::-->
+</div>
+</div>
+<div class="footer">
+<p>Images: <a href="https://doi.org/10.3389/fgene.2022.960958">Bosse &amp; Loon 2022, <em>Fron. Gen.</em></a></p>
+</div>
+<p><img src="images/OBULogo.png" class="slide-logo"></p>
+<div class="footer footer-default">
 
 </div>
 </section></section>

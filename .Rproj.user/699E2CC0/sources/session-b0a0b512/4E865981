@@ -3,7 +3,7 @@
     "path": "~/Documents/Presentations/BMSSeminar2024/custom.scss",
     "project_path": "custom.scss",
     "type": "scss",
-    "hash": "2221641816",
+    "hash": "1133922152",
     "contents": "",
     "dirty": false,
     "created": 1725392434249.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "142,27",
-        "scrollLine": "107"
+        "cursorPosition": "161,14",
+        "scrollLine": "126"
     },
     "folds": "",
-    "lastKnownWriteTime": 1725567319,
+    "lastKnownWriteTime": 1725830456,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1725567319003,
+    "last_content_update": 1725830456388,
     "read_only": false,
     "read_only_alternatives": []
 }
