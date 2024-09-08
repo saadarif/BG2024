@@ -1,0 +1,345 @@
+---
+format: 
+  revealjs:
+    css: styles.css
+    slide-number: true
+    show-slide-number: all
+    preview-links: auto
+    self-contained: true
+    progress: true
+    history: true
+    hash-type: number
+    theme: default
+    code-block-background: true
+    highlight-style: zenburn
+    code-link: false
+    code-copy: true
+    pagetitle: "AI Festival June 2024"
+    author-meta: "Saad Arif"
+    date-meta: "2024-06-06"
+---
+
+::: {.my-title}
+# Learning and teaching [R etc.]{.blue} in the Biology Undergraduate Curriculum  
+
+::: {.my-grey}
+[Oxfordshire Open Data Sandpit | AI Festival | June 2024]{}<br />
+[Saad Arif| Oxford Brookes University]{}
+:::
+
+
+![](./img/r_logo.png){.absolute bottom=100 right=0 width=300}
+:::
+
+<!-- Me -->
+
+## About Me {.smaller}
+
+::: {.columns .pv4}
+::: {.column width="30%"}
+::: {.tc}
+![](./img/Arif-Saad-p0078099-small.jpg){.br-100}
+
+**Saad Arif**, PhD<br /> [saadarif.github.io](https://saadarif.github.io)<br /> [sarif\@brookes.ac.uk](mailto:sarif@brookes.ac.uk)
+:::
+:::
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="60%"}
+::: {.fragment}
+#### Background
+
+-   [Senior Lecturer]{.b .green}, *Oxford Brookes University*
+-   Research Postdoc, *Friedrich Miescher Laboratory, Tuebingen, Germany*
+-   PhD Student, *Oxford Brookes; Vetmeduni, Vienna; Stony Brook University, NY*
+:::
+::: {.fragment .mt1}
+#### Research Areas/Interests
+
+-   Population/Conservation Genomics of Butterflies
+-   Morphological Evolution/Geometric Morphometrics
+-   Evolutionary Biology
+
+:::
+:::
+:::
+
+
+::: footer
+\[\] about
+:::
+
+## Talk Outline
+
+::: {.fragment .mt1}
+1. Teaching [R/Data wrangling/analysis]{.b .blue} at the undergrad level: Why? What? How?
+:::
+
+::: {.fragment .mt1}
+2. Teaching at Graduate level and beyond
+:::
+
+::: {.fragment .mt1}
+3. Resources for Learning/Teaching R
+:::
+
+## Programming in Biology? 
+
+::: {.columns .pv4}
+::: {.column width="100%"}
+The advent of [Big Data]{.b .blue} requires ability to handle such data
+
+::: {.fragment .mt1}
+Rapid development of [analytical methods]{.b .blue} requires writing your own
+code or potentially working with beta code
+:::
+
+::: {.fragment .mt1}
+Complexity of analysis requires emphasis on [reproducibility]{.b .blue}
+:::
+
+::: {.fragment .mt1}
+[`Perl`]{.b .green}, [`Python`]{.b .green} and [`R`]{.b .blue} remain popular choice 
+of high-level programming languages for Biologists
+:::
+:::
+
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+
+## [Programming/Statistics/R]{.blue} in the Biology Undergraduate Curriculum 
+
+
+::: {.columns .pv4}
+::: {.column width="100%"}
+Statistics is common in Biology Undergraduate curriculum but content is highly
+variable
+
+::: {.fragment .mt1}
+Programming is not a common skill in the undergraduate curriculum
+:::
+
+::: {.fragment .mt1}
+[R]{.b .blue} is often taught as a [statistical software]{.b .red} rather than 
+a programming language
+:::
+:::
+
+
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+
+## Teaching [R/Statistics]{.blue} to Biology Undergrads at Brookes {.smaller}
+
+::: {.columns .pv4}
+::: {.column width="60%"}
+1. Introduce students to a free/flexible statistical analysis environment
+
+
+::: {.fragment .mt1}
+2. Provide students the fundamental building blocks for learning a programming 
+language
+:::
+
+::: {.fragment .mt1}
+3. Introduce students to the need for reproducible research in Biology and some 
+tools to implement
+:::
+
+
+::: {.fragment .mt1}
+The goal was to wrap up these ideas in a **2nd year** 
+undergrad module: Data Carpentry 
+
+:::
+:::
+
+::: {.column .tc .pv5 .relative width="40%"}
+{{< li nchegqgo trigger=loop delay=3000 colors=secondary:#2a76dd class=rc >}}
+:::
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+ 
+## [Data Carpentry]{.blue}: Learning Outcomes for Module {.smaller}
+
+::: {.columns .pv4}
+
+
+::: {.fragment .mt1}
+1. Introduction to programming using [R]{.b .blue} (3 weeks)
+:::
+
+::: {.fragment .mt1}
+2. Data handling/wrangling in [R]{.b .blue} + the [tidyverse]{.b .green} (2 weeks)
+:::
+
+::: {.fragment .mt1}
+3. Reproducible research and literate programming with R, Rmarkdown and Knitr (1 week)
+:::
+
+
+::: {.fragment .mt1}
+4. Introduction to hypothesis testing linear models in R (5 weeks)
+:::
+
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+
+## [Data Carpentry]{.blue}: Module Format {.smaller}
+
+::: {.columns .pv4}
+::: {.column width="50%"}
+
+::: {.fragment .mt1}
+
+#### Structure {{< fa chalkboard-user size=lg  >}}
+  - 3 hour weekly sessions
+  - Short lectures/including demos
+  - interactive/practical exercises
+  - use of [{]{.blue}swi[r]{.blue}l[}]{.blue} package
+  - Weekly surgery with [PALL]{.green}
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment .mt1}
+
+#### Assessment {{< fa laptop-file size=lg  >}}
+  -   Weekly quizzes with multiple tries (low stakes exercises that maintain engagement)
+  -   Two larger, single attempt exercises on programming, data handling, 
+  statistical analysis
+
+:::
+
+::: {.fragment .m1}
+
+#### Student Feedback {{< fa thumbs-up size=lg  >}} 
+  - Students greatly appreciate session and assessment format 
+  - Many (not all) students love this module for its [accessibility]{.b} 
+  {{< li jjoolpwc trigger=loop delay=3000 colors=secondary:#2a76dd class=small >}}
+
+:::
+:::
+
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+
+## Challenges {.smaller}
+
+
+::: {.columns .pv4}
+::: {.column width="60%"}
+
+::: {.fragment .mt1}
+1. Doesn't work for all learning styles.   
+
+  - requires constant engagement from students. 
+
+:::
+
+::: {.fragment .mt1}
+
+2. New AI tools making it easier to "cheat". 
+  
+  - "appropriate" use of AI for coursework is helpful/liberating on multiple levels but perhaps an issue of trying to run before being able to crawl?
+  - is there a point in teaching programming to Biologists or anyone for that matter??  
+
+:::
+:::
+
+::: {.column .tc .pv5 .relative width="40%"}
+{{< li rmjnvgsm trigger=loop delay=3000 colors=secondary:#2a76dd class=rc >}}
+:::
+:::
+
+::: footer
+\[1\] Teaching Undergrad
+:::
+
+## Graduate [R/RStudio/Stats]{.blue} teaching{.smaller}
+
+::: {.columns .pv4}
+::: {.column width="100%"}
+::: {.fragment}
+#### Master's/PhD/Staff
+
+-   Shorter/faster-paced course Data handling/Intro stats for [MSc]{.b .green} 
+-   [BBSRC DTP]{.b .green} short courses on: Multivariate statistics, Basic Linear models
+-   Data handling and plotting with R for [staff]{.b .green}, 1 day course via [Centre for Functional Genomics]{.b .green}
+:::
+::: {.fragment .mt1}
+#### Beyond..
+
+-   Module on Literate Programming, part of [Elixir's]{.b .orange} [Code Reproducibility](https://elixir-europe-training.github.io/CodeReproducibility/team) initiative  
+![](./img/Elixir-Europe-logo-1.png){width=300  fig-align="right"}
+:::
+:::
+
+:::
+
+::: footer
+\[2\] Teaching beyond undergrad
+:::
+
+
+
+##  Free [Resources]{.b .bg-yellow} for learning/teaching [R]{.blue} and Statistics{.smaller}
+
+::: {.columns .pv4}
+::: {.column width="70%"}
+[Beginner]{.b .bg-yellow}: Basic R programming and data analysis
+
+Learn how to analyse data with R in R: the [swirl](http://swirlstats.com) package
+
+
+::: {.fragment .mt1}
+[Intermediate]{.b .bg-yellow}: Advanced R programming and statistics, Reproducible Research
+
+Various online courses on MOOC platforms e.g [Coursera](coursera.org) or [CodeAcademy](https://www.codecademy.com/)
+
+At this stage and the next LLMs are a great way to learn and expand (e.g. [RTutor](https://www.rtutor.ai))
+ 
+  
+:::
+
+::: {.fragment .mt1}
+[Advanced]{.b .bg-yellow}: Reproducibility, Containerization, code testing, working collaboratively
+
+Various resources spread around but see **Elixir's** [Code Reproducibility](https://elixir-europe-training.github.io/CodeReproducibility/team) initiative, where all of this **extra** stuff may find a single home.
+
+
+:::
+:::
+
+::: {.column .tc .pv5 .relative width="30%"}
+{{< li odavpkmb trigger=loop delay=3000 colors=secondary:#2a76dd class=rc >}}
+:::
+:::
+
+::: footer
+\[3\] Resources
+:::
+
+## Any [Questions]{.blue}?
+
+::: footer
+\[\] fin
+:::

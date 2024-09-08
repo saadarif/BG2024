@@ -1,0 +1,20 @@
+{
+  "hash": "5ead39979a8421c9f6259321abb864bf",
+  "result": {
+    "markdown": "---\nsubtitle: \"BMS Summer Seminar 2024\"\ntitle: \"Highthroughput sequencing from museum samples\"\nauthor: \"Saad Arif/Rebecca Whitla\"\ntitle-slide-attributes:\n  data-background-image: /images/BVW_museum.jpg\n  data-background-size: stretch\n  data-background-opacity: \"0.4\"\nformat:\n  revealjs: \n    theme: custom.scss\n    height: 900\n    width: 1600\n    highlight-style: a11y\n    code-line-numbers: false\n    code-copy: hover\n    menu: false\n    css: styles.css\n---\n\n\n## Why are museum specimens valuable for DNA? \n\nA global spatio-temporal record of populations and species, spanning 200 years. \n\n::: {.incremental}\n-   useful for studying extinct, extirpated or threatened species/populations\n-   building baselines or study long term changes\n-   metagenomics\n:::\n\n## What are the issues with historical DNA (hDNA)?\n\nThese are mostly similar to ancient DNA (**aDNA**) but perhaps not as exaggerated. \n\n\n\n![Contamination](images/hDNAcontam_lrg.jpg){.absolute bottom=\"475px\" left=\"200px\" width=\"500px\"}\n![Quality](images/hDNAprobs_lrg.jpg){.absolute bottom=\"400px\" left=\"800px\" width=\"500px\"}\n\n::: footer\nImages: [Raxworthy & Smith 2021, *TREE*](10.1016/j.tree.2021.07.009)\n:::\n\n::: {.incremental .absolute bottom=\"170px\"}\n- [Contamination]{.b .dark-red} - multiple sources\n- [DNA fragmentation]{.b .dark-red} - typically 50 bp fragments\n- [deamination]{.b .dark-red} at 3' and 5' ends\n- [low yield]{.b .red}\n\n:::\n\n## Our approach to dealing with hDNA issues\n\n-   [Contamination]{.b .dark-red} - workspace/tools only for museum samples, run [extraction blanks]{.b .green}\n-   [DNA fragmentation]{.b .dark-red} - problematic for **illumina library preparation** - difficult to separate adapter dimers in library prep, use [beads]{.b .green} for size selection and [titration of adapter]{.b .green} to reduce adapter contamination\n-   [deamination]{.b .dark-red} - can be fixed fully or partially fixed with commercially available repair enzymes. We avoided this as damage can be a usueful diagnostic for authenticity/provenance\n-   [low yield]{.b .red} - for our tissue (butterfly legs) a [qiagen tissuelyzer]{.b .green} prep worked best (further details in Rebecca's theis)\n\nWhen you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
