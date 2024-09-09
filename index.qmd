@@ -13,7 +13,7 @@ format:
     highlight-style: a11y
     code-line-numbers: false
     code-copy: hover
-    menu: false
+    menu: true
     slide-number: c/t
     css: styles.css 
 ---
@@ -60,7 +60,7 @@ Images: [Raxworthy & Smith 2021, *TREE*](10.1016/j.tree.2021.07.009)
 
 ::: {layout="[[40,-10,40]]"}
 ::: fragment
-![](images/badlib.png){width="500px"} 
+![](images/badlib.png){width="500px"}
 :::
 
 ::: fragment
@@ -108,6 +108,7 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 -   Were UK populations of *A. crataegi* distinct from European stock? Did they survive into the 20th Century?
 
 -   Was the decline rapid or fast? For the latter we could expect to see no **genomic erosion**
+
     -   Compare relative genomic erosion in UK *A. crataegi* to mainland European pop. Perform same analysis for a demographically stable species (*Polyommatus icarus*) to provide some context.
 
 -   Is there any evidence for a role of pathogen infection in the extirpation of UK butterflies?
@@ -165,45 +166,39 @@ Images: [Kutschera et al. 2022, *BMC Bioinfo.*](https://doi.org/10.1186/s12859-0
 
 ## Results: [GB]{.bg-gb} *A. crataegi* are distinct from [European]{.bg-eu}
 
-
-:::{.columns}
-
+::: columns
 ::: {.column width="35%"}
-::: {.fragment fragment-index=1}
+::: {.fragment fragment-index="1"}
 ![](images/fig1a.png){.absolute width="500px"}
 :::
 :::
 
 ::: {.column width="35%"}
-::: {.fragment fragment-index=2}
+::: {.fragment fragment-index="2"}
 ![](images/supppca.png){.absolute width="550px"}
 :::
 :::
 
 ::: {.column width="30%"}
-
-:::{.fragment fragment-index=2}
+::: {.fragment fragment-index="2"}
 -   Isolation by distance pattern within GB
 -   Evidence of European stock releases in late nineteenth/early 20th century
 -   Oldest specimen (1924) in our sampling clusters with GB specimens
 :::
 :::
-
 :::
-
 
 ## Results: Evidence of strong bottleneck at time of [GB]{.bg-gb} colonisation
 
-::: {.fragment fragment-index=1 }
+::: {.fragment fragment-index="1"}
 ![](images/fig2a.png){.absolute bottom="150px" left="50px" width="700px"}
 :::
 
-::: {.fragment fragment-index=2}
+::: {.fragment fragment-index="2"}
 ![](images/fig2b.png){.absolute bottom="130px" left="750px" width="700px"}
 :::
 
-
-:::{.absolute bottom="0px" .fragment fragment-index=3}
+::: {.absolute .fragment bottom="0px" fragment-index="3"}
 -   Bottleneck signal also present in *P. icarus* but not as strong, potential recovery
 -   Difference in *P. icarus* demography potenially due to rapid colonisation?
 :::
@@ -212,17 +207,15 @@ Images: [Kutschera et al. 2022, *BMC Bioinfo.*](https://doi.org/10.1186/s12859-0
 
 ![](images/fig3ab.png){.absolute bottom="50px" left="500px" width="700px"}
 
-
-:::{.absolute bottom="0px"}
-17% reduction in [GB]{.bg-gb} *A. crataegi* and 14% *P. icarus* relative to [EU]{.bg-eu} 
+::: {.absolute bottom="0px"}
+17% reduction in [GB]{.bg-gb} *A. crataegi* and 14% *P. icarus* relative to [EU]{.bg-eu}
 :::
-
 
 ## Results: Higher levels of inbreeding in [GB]{.bg-gb} *A. crataegi*
 
 ![](images/fig3a.png){.absolute bottom="125px" left="500px" width="700px"}
 
-:::{.absolute bottom="0px"}
+::: {.absolute bottom="0px"}
 Levels of inbreeding similar to those observed in **extinct** *Glaucopsyche xerces* (de-Dios et al. 2023, *elife*)
 :::
 
@@ -230,26 +223,33 @@ Levels of inbreeding similar to those observed in **extinct** *Glaucopsyche xerc
 
 ![](images/fig4s.png){.absolute bottom="100px" left="500px" width="600px" height="700px"}
 
-:::{.absolute bottom="0px"}
+::: {.absolute bottom="0px"}
 Increase in *homozygous* **synonymous** and **missense** mutations
 :::
 
+## Conclusions 
 
+-   Resident [GB]{.bg-gb} *A. crataegi* survived into 20th century, however 2/4 20th century samples are likely of [EU]{.bg-eu} ancestry
 
-## Conclusions
+-   *A. crataegi* underwent severe bottlneck at time of colonisation and never seems to have recovered. Increases in homozygosity suggest a spasmodic rather than instant decline in the 19th-20th century
 
-- Resident [GB]{.bg-gb} *A. crataegi* survived into 20th century, however 2/4 20th century samples are likely of [EU]{.bg-eu} ancestry
+-   Increase in homozygous **missense** mutations may have made population more prone to extinction
 
--  *A. crataegi* underwent severe bottlneck at time of colonisation and never seems to have recovered
+**Broader signficance:**
 
--  Increases in homozygosity suggest a spasmodic rather than instant decline in the 19th-20th century
+-   Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals.
 
--  Increase in homozygous **missense** mutations may have made population more prone to extinction
+-   Our DNA extraction + Library prep works well:
 
--  Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals.
+    -   use of legs keeps curators mostly happy
 
--  What was the ultimate cause of the regional extinction?
-    - at least two other Butterfly species disappeared from the UK around the same time
+    -  <span>&#8805;</span>50% coverage at depth of <span>&#8805;</span>5X for ~175 yo specimens, <span>&#8805;</span>90% coverage at depth of <span>&#8805;</span>5X for \~120 yo specimens
+
+**Further work:**
+
+-   What was the ultimate cause of the regional extinction?
+
+    -   at least two other Butterfly species disappeared from the UK around the same time
 
 ## Further work: Metagenomics
 
@@ -258,20 +258,19 @@ Increase in *homozygous* **synonymous** and **missense** mutations
 ![](images/overview_heatmap_scores.png)
 :::
 
-::: {.column width="25%" .fragment}
-- *Aspergillus sp.* are known to be entomopathogenic but they are quite common and potentially might be *perimortem* or *postmortem* contamination
+::: {.column .fragment width="25%"}
+-   *Aspergillus sp.* are known to be entomopathogenic but they are quite common and potentially might be *perimortem* or *postmortem* contamination
 
-- more work needed
+-   more work needed
 :::
-
 :::
 
 ## The future: Functional Genomics in museum specimens
 
-- Genome-wide methylation is possible from veretbrate museum specimens
+-   Genome-wide methylation is possible from veretbrate museum specimens
 
-:::{.fragment}
-![](images/Screenshot 2024-09-09 at 21.50.08.png)
+::: fragment
+![](images/Screenshot%202024-09-09%20at%2021.50.08.png)
 :::
 
 ## Acknowledgements
@@ -314,7 +313,7 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 
 [the 'scrolltelling' experience]{.b}: saadarif.github.io/BVW-LastDays
 
-email sarif@brookes.ac.uk
+email sarif\@brookes.ac.uk
 :::
 :::
 
@@ -355,6 +354,6 @@ Images: [Bosse & Loon 2022, *Fron. Gen.*](https://doi.org/10.3389/fgene.2022.960
 
 ![](images/fig5.jpg){.absolute bottom="50px" left="200px"}
 
-:::{.absolute bottom="0px"}
+::: {.absolute bottom="0px"}
 Still cannot detect difference in LOF mutations
 :::
