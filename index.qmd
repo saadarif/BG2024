@@ -9,6 +9,7 @@ format:
     logo: images/OBULogo.png
     height: 900
     width: 1600
+    embed-resources: true
     scrollable: true
     highlight-style: a11y
     code-line-numbers: false
