@@ -60,7 +60,7 @@ Images: [Raxworthy & Smith 2021, *TREE*](10.1016/j.tree.2021.07.009)
 
 ::: {layout="[[40,-10,40]]"}
 ::: fragment
-![](images/badlib.png){width="500px"}
+![](images/badlib.png){width="500px"} 
 :::
 
 ::: fragment
@@ -86,11 +86,11 @@ Also extirpated in the Netherlands and South Korea
 Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598-020-70957-4)
 :::
 
-## The "mysterious" disappearance of *Aporia crataegi* in Britain?
+## The "mysterious" disappearance of *Aporia crataegi* in Britain
 
--   Correspondence in the Entomologoical journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, *Entomologist's Rec. J. Var*)
+-   Correspondence in the Entomological journals suggest that the butterfly was already disappearing from the western part of its range. Last sighting in Kent 1925 (Pratt 1983, *Entomologist's Rec. J. Var*)
 
--   Record of numerous releases within the 19th century - none seem to have persisted
+-   Record of numerous releases within the 19th century - unclear if resident GB population survived into 20th century.
 
 -   Debate on reasons of extinction:
 
@@ -108,8 +108,7 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 -   Were UK populations of *A. crataegi* distinct from European stock? Did they survive into the 20th Century?
 
 -   Was the decline rapid or fast? For the latter we could expect to see no **genomic erosion**
-
--   Compare relative genomic erosion in UK *A. crataegi* to mainland European pop. Perform same analysis for a demographically stable species (*Polyommatus icarus*) to provide some context.
+    -   Compare relative genomic erosion in UK *A. crataegi* to mainland European pop. Perform same analysis for a demographically stable species (*Polyommatus icarus*) to provide some context.
 
 -   Is there any evidence for a role of pathogen infection in the extirpation of UK butterflies?
 :::
@@ -166,19 +165,32 @@ Images: [Kutschera et al. 2022, *BMC Bioinfo.*](https://doi.org/10.1186/s12859-0
 
 ## Results: [GB]{.bg-gb} *A. crataegi* are distinct from [European]{.bg-eu}
 
-::: {.fragment fragment-index=1 .fade-out}
-![](images/fig1a.png){.absolute bottom="200px" left="600px" width="400px"}
+
+:::{.columns}
+
+::: {.column width="35%"}
+::: {.fragment fragment-index=1}
+![](images/fig1a.png){.absolute width="500px"}
+:::
 :::
 
+::: {.column width="35%"}
 ::: {.fragment fragment-index=2}
-![](images/fig1b.png){.absolute bottom="200px" left="600px" width="400px"}
+![](images/supppca.png){.absolute width="550px"}
+:::
 :::
 
-:::{.absolute bottom="0px" .fragment fragment-index=2}
+::: {.column width="30%"}
+
+:::{.fragment fragment-index=2}
 -   Isolation by distance pattern within GB
 -   Evidence of European stock releases in late nineteenth/early 20th century
 -   Oldest specimen (1924) in our sampling clusters with GB specimens
 :::
+:::
+
+:::
+
 
 ## Results: Evidence of strong bottleneck at time of [GB]{.bg-gb} colonisation
 
@@ -208,20 +220,59 @@ Images: [Kutschera et al. 2022, *BMC Bioinfo.*](https://doi.org/10.1186/s12859-0
 
 ## Results: Higher levels of inbreeding in [GB]{.bg-gb} *A. crataegi*
 
+![](images/fig3a.png){.absolute bottom="125px" left="500px" width="700px"}
 
--   Levels of inbreeding similar to those obersved in **extinct** *Glaucopsyche xerces* (de-Dios et al. 2023, *elife*)
+:::{.absolute bottom="0px"}
+Levels of inbreeding similar to those observed in **extinct** *Glaucopsyche xerces* (de-Dios et al. 2023, *elife*)
+:::
 
-## Results: Increase in realised genetic load in [GB]{.bg-gb} *A. crataegi*
+## Results: Increase in *realised* genetic load in [GB]{.bg-gb} *A. crataegi*
 
--   increase in *homozygous* synonymous and missense mutations
+![](images/fig4s.png){.absolute bottom="100px" left="500px" width="600px" height="700px"}
 
-## Results: overall increase in shared derived synonymous and missense mutations n [GB]{.bg-gb} *A. crataegi*
+:::{.absolute bottom="0px"}
+Increase in *homozygous* **synonymous** and **missense** mutations
+:::
 
--   still cannot detect difference in LOF mutations
+
 
 ## Conclusions
 
+- Resident [GB]{.bg-gb} *A. crataegi* survived into 20th century, however 2/4 20th century samples are likely of [EU]{.bg-eu} ancestry
+
+-  *A. crataegi* underwent severe bottlneck at time of colonisation and never seems to have recovered
+
+-  Increases in homozygosity suggest a spasmodic rather than instant decline in the 19th-20th century
+
+-  Increase in homozygous **missense** mutations may have made population more prone to extinction
+
+-  Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals.
+
+-  What was the ultimate cause of the regional extinction?
+    - at least two other Butterfly species disappeared from the UK around the same time
+
 ## Further work: Metagenomics
+
+::: columns
+::: {.column width="75%"}
+![](images/overview_heatmap_scores.png)
+:::
+
+::: {.column width="25%" .fragment}
+- *Aspergillus sp.* are known to be entomopathogenic but they are quite common and potentially might be *perimortem* or *postmortem* contamination
+
+- more work needed
+:::
+
+:::
+
+## The future: Functional Genomics in museum specimens
+
+- Genome-wide methylation is possible from veretbrate museum specimens
+
+:::{.fragment}
+![](images/Screenshot 2024-09-09 at 21.50.08.png)
+:::
 
 ## Acknowledgements
 
@@ -262,6 +313,8 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 [Lab]{.b}: saadarif.github.io
 
 [the 'scrolltelling' experience]{.b}: saadarif.github.io/BVW-LastDays
+
+email sarif@brookes.ac.uk
 :::
 :::
 
@@ -296,4 +349,12 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 
 ::: footer
 Images: [Bosse & Loon 2022, *Fron. Gen.*](https://doi.org/10.3389/fgene.2022.960958)
+:::
+
+## Results: overall increase in shared derived synonymous and missense mutations n [GB]{.bg-gb} *A. crataegi*
+
+![](images/fig5.jpg){.absolute bottom="50px" left="200px"}
+
+:::{.absolute bottom="0px"}
+Still cannot detect difference in LOF mutations
 :::

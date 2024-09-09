@@ -9,8 +9,8 @@ $font-family-monospace: 'Fira Code', monospace;
 $font-family: 'League Spartan', sans-serif;
 $code-block-font-size: 0.6em;
 
-// colours
-$body-bg: #fffaf3;
+// colours #fffaf3
+$body-bg: white;
 $body-color: #273b50;
 $link-color: #7E98A8;
 $code-block-bg: $body-bg;
@@ -147,7 +147,7 @@ $tabset-border-color: $body-color;
 /* logo size*/
 .reveal .slide-logo {
   height: 50px !important;
-  width: 90px !important;
+  width: 100px !important;
   max-width: unset !important;
   max-height: unset !important;
 }
