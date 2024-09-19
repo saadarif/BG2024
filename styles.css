@@ -209,3 +209,9 @@ iframe.slide-deck {
 .blue { color: #357EDD; }
 
 .f3 { font-size: 20px !important; }
+
+.reveal ul .nolist {list-style: none !important;}
+
+
+
+

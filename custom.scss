@@ -2,11 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 // fonts
 $font-family-monospace: 'Fira Code', monospace;
-$font-family: 'League Spartan', sans-serif;
+$font-family: 'Open Sans', sans-serif;
 $code-block-font-size: 0.6em;
 
 // colours #fffaf3
@@ -21,10 +21,10 @@ $tabset-border-color: $body-color;
 /*-- scss:rules --*/
 
 .reveal .title {
-  font-family: 'League Spartan', sans-serif;
-  color: #a47823;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
   font-size: 2.2em;
-  font-weight: 300;
+  font-weight: 400;
   /*position: absolute;
   bottom: 375px;
   left: 250px;*/
@@ -32,10 +32,10 @@ $tabset-border-color: $body-color;
 }
 
 .reveal .subtitle {
-  font-family: 'League Spartan', sans-serif;
-  color: #273b50;
+  font-family: 'Open Sans', sans-serif;
+  color: blue;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 300;
   /*position: absolute;
   bottom: 180px;
   left: 250px;*/
@@ -44,7 +44,7 @@ $tabset-border-color: $body-color;
 }
 
 .reveal .acknowledgement {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #a47823;
   font-weight: 100;
   font-style: italic;
@@ -88,14 +88,14 @@ $tabset-border-color: $body-color;
 }
 
 .reveal .galah h2 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #a47823;
   font-weight: 100;
-  font-size: 2.5em;
+  font-size: 1.8em;
 }
 
 .reveal .galah h4 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #273b50;
   font-weight: 200;
   font-size: 1.5em;
@@ -105,10 +105,10 @@ $tabset-border-color: $body-color;
 }
 
 .reveal .final {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #273b50;
   font-weight: 200;
-  font-size: 1em;
+  font-size: 0.5em;
 }
 
 .reveal .links {
@@ -153,10 +153,6 @@ $tabset-border-color: $body-color;
 }
 
 
-.bg-gold {
-  background-color: #FFB700;;
-}
-
 .bg-gb{
   background-color: #003f5c ;
   color: white;
@@ -166,3 +162,13 @@ $tabset-border-color: $body-color;
   background-color: #ffa600 ;
 }
 
+.bg-og{
+   background-color: #eb4034
+}
+
+.reveal ul .nolist {list-style: none !important;}
+
+.reveal h2 {
+  font-size: 1.8em !important;
+  font-family: 'Open Sans', sans-serif;
+}
