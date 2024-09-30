@@ -24,7 +24,7 @@ format:
     css: styles.css 
 ---
 
-## *Aporia crataegi* (the black-veined white) extirpated in Great Britain ~1925 {.smaller}
+## *Aporia crataegi* (the black-veined white) extirpated in Great Britain \~1925 {.smaller}
 
 ![](images/bvwdist.webp){.absolute bottom="225px" left="0px" width="500px"} ![](images/gaurdian.png){.absolute bottom="175px" left="600px" width="500px"}
 
@@ -33,7 +33,7 @@ format:
 :::
 
 ::: {.fragment .absolute bottom="50px"}
-Also extirpated in the Netherlands and South Korea
+Also extirpated in the Netherlands and Korea
 :::
 
 ::: footer
@@ -47,17 +47,14 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 <br/>
 
 ![](images/Dennis1977b.jpg){width="500px"}
-
 :::
 
 ::: {.column .nolist width="50%"}
-<br/> 
-<br/>
-<br/>
+<br/> <br/> <br/>
 
 -   Exhibit a 'spasmodic', rather than *gradual* decline, eastwards throughout the 19th Century (Dennis, 1977)
 
--   Anecdotal recordings of multiple releases of European stock (Pratt, 1983) 
+-   Anecdotal recordings of multiple releases of European stock (Pratt, 1983)
 :::
 :::
 
@@ -65,7 +62,7 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 Images: Dennis, RLH, 1977 *The British Butterflies*
 :::
 
-## Potential reasons behind the demise of *A. crataegi* in Britain  {.smaller}
+## Potential reasons behind the demise of *A. crataegi* in Britain {.smaller}
 
 <br/>
 
@@ -73,7 +70,7 @@ Images: Dennis, RLH, 1977 *The British Butterflies*
 
     -   Avian predation (increase in small birds)
     -   fungal, viral or other pathogen
-    -   Series of unseasonably *wet* Septembers around years of *A. crataegi* in the 19th Century
+    -   Series of unseasonably *wet* Septembers around years of low *A. crataegi* abundance in the 19th Century
 
 <br/>
 
@@ -83,8 +80,7 @@ Images: Dennis, RLH, 1977 *The British Butterflies*
 
 ## A genomic perspective on the demise of *A. crataegi* in Britain {.smaller}
 
-![](images/ac.png){.absolute top="75px" left="1200px" width="150px"}
-<br/>
+![](images/ac.png){.absolute top="75px" left="1200px" width="150px"} <br/>
 
 [Goals]{.b .bg-yellow}:
 
@@ -106,8 +102,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ::: columns
 ::: {.column width="50%"}
-<br/>
-![](images/museum.jpg)
+<br/> ![](images/museum.jpg)
 :::
 
 ::: {.column width="50%"}
@@ -121,7 +116,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 -   Library prep kit (NEB Ultra II DS DNA) led to *partial* repair on 5' ends
 
--   Further details  can be found in [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
+-   Further details can be found in [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
 :::
 
@@ -132,26 +127,23 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 -   *A. crataegi* samples ranged from 1854-1924
 
 -   Average **depth** ranged from **2-13X**:
-    -   [European]{.bg-eu}: 10X (**n**=4), [GB]{.bg-gb} 6X (**n**=13). Two [GB]{.bg-gb} samples had coverage &lt;5X coverage at depth of ≥5X 
 
--  Average [coverage]{.b} **≥50%** at depth of ≥5X 
+    -   [European]{.bg-eu}: 10X (**n**=4), [GB]{.bg-gb} 6X (**n**=13). Two [GB]{.bg-gb} samples had average depth \<5X
 
--  Historical damage profile:
-![](images/ox4dmgprofiler.png){.absolute bottom="100px" left="300px" width="600px"} 
+-   Average [coverage]{.b} **≥50%** at depth of ≥5X
 
+-   Historical damage profile: ![](images/ox4dmgprofiler.png){.absolute bottom="100px" left="300px" width="600px"}
 
 ::: {.absolute bottom="100px"}
 -   *P. icarus* samples collected in 2017-2018. Depth 11-50X
     -   [European]{.bg-eu}: **n**=3, [GB]{.bg-gb} **n**=4
-
 :::
-
 
 ::: footer
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
 
-## [Results]{.bg-teal}: British *A. crataegi* are distinct from European{.smaller}
+## [Results]{.bg-teal}: British *A. crataegi* are distinct from European {.smaller}
 
 ::: columns
 ::: {.column width="30%"}
@@ -160,8 +152,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ::: {.column width="40%"}
 ::: {.fragment fragment-index="1"}
-![](images/ac.png){.absolute top="160px" left="450px" width="75px"}
-![](images/supppca_crop.png){}
+![](images/ac.png){.absolute top="160px" left="450px" width="75px"} ![](images/supppca_crop.png)
 :::
 :::
 
@@ -179,19 +170,16 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
 
-## [Results]{.bg-teal}: Evidence of bottleneck at time of post-glacial colonisation{.smaller}
-
+## [Results]{.bg-teal}: Evidence of bottleneck at time of post-glacial colonisation {.smaller}
 
 ![](images/fig2a.png){.absolute bottom="175px" left="0px" width="550px"}
 
 ![](images/fig2b.png){.absolute bottom="165px" left="600px" width="550px"}
 
-
-
 ::: {.absolute .fragment bottom="-10px" fragment-index="1"}
--   Bottleneck signal also present in [*P. icarus*]{.bg-gb} but N~e~ magnitude higher, potentially due to differences in genome size. 
+-   Bottleneck signal also present in [*P. icarus*]{.bg-gb} but N~e~ magnitude higher, potentially due to differences in genome size.
 
--   Differences in timing between species(see discussion in  [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518) and [Bortoluzzi et al., 2023](https://www.biorxiv.org/content/10.1101/2023.04.14.536868v1))
+-   Differences in timing between species(see discussion in [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518) and [Bortoluzzi et al., 2023](https://www.biorxiv.org/content/10.1101/2023.04.14.536868v1))
 :::
 
 ::: footer
@@ -200,13 +188,12 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ## [Results]{.bg-teal}: Inbreeding suggest more recent population declines [GB]{.bg-gb} *A. crataegi* {.smaller}
 
-![](images/ac.png){.absolute top="140px" left="470px" width="75px"}
-![](images/cb.png){.absolute top="140px" left="720px" width="75px"}
+![](images/ac.png){.absolute top="140px" left="470px" width="75px"} ![](images/cb.png){.absolute top="140px" left="720px" width="75px"}
 
 ![](images/fig3a.png){.absolute bottom="100px" left="350px" width="575px"}
 
 ::: {.absolute bottom="-10px"}
--   Runs of Homozygosity (RoHS) of ≥ 1 megabase (Mb) cover [1.6%]{.b .bg-gb} of the *A. crataegi* genome compared to [0.1%]{.b .bg-eu} and [none]{.b} in *P. icarus*  
+-   Runs of Homozygosity (RoHS) of ≥ 1 megabase (Mb) cover [1.6%]{.b .bg-gb} of the *A. crataegi* genome compared to [0.1%]{.b .bg-eu} and [none]{.b} in *P. icarus*\
 :::
 
 ::: footer
@@ -217,15 +204,13 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ::: columns
 ::: {.column width="40%"}
-![](images/ac.png){.absolute top="200px" left="-75px" width="75px"}
-![](images/cb.png){.absolute top="550px" left="-75px" width="75px"}
-![](images/fig4.jpg){width="375px"}
+![](images/ac.png){.absolute top="200px" left="-75px" width="75px"} ![](images/cb.png){.absolute top="550px" left="-75px" width="75px"} ![](images/fig4.jpg){width="375px"}
 :::
 
 ::: {.column width="60%"}
-:::{.absolute top="300px"}
-- But there was an increase in **homozygous** missense (**ns**)and synonymous(\*) variants in [GB]{.bg-gb} *A. crataegi*
-- *Caveat*: Variant effects predicted by [snpEFF]{.prog} based on Ensembl annotation
+::: {.absolute top="300px"}
+-   But there was an increase in **homozygous** missense (**ns**)and synonymous(\*) variants in [GB]{.bg-gb} *A. crataegi*
+-   *Caveat*: Variant effects predicted by [snpEFF]{.prog} based on Ensembl annotation
 :::
 :::
 :::
@@ -234,25 +219,25 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
 
-## [Results]{.bg-teal}: Potential increase in genetic load from shared derived alleles{.smaller}
+## [Results]{.bg-teal}: Potential increase in genetic load in *shared derived alleles* {.smaller}
 
 ![](images/fig5.jpg){.absolute width="650px" left="200px"}
 
 ::: {.absolute bottom="0px"}
-- An R~xy~ &gt;1 implies a relative increase in frequency in [GB]{.bg-gb} compared to [EU]{.bg-eu}, whereas &lt;1 implies a relative decrease
+-   An R~xy~ \>1 implies a relative increase in frequency in [GB]{.bg-gb} compared to [EU]{.bg-eu}, whereas \<1 implies a relative decrease
 
-- *Caveat*: low to very low sample sizes for allele frequency estimations
+-   *Caveat*: low to very low sample sizes for allele frequency estimations
 :::
 
 ::: footer
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
 
-## Conclusions{.smaller}
+## Conclusions {.smaller}
 
 <br/>
 
--   *A. crataegi* underwent severe bottlneck at time of post-glacial colonisation and never seems to have recovered. 
+-   *A. crataegi* underwent severe bottlneck at time of post-glacial colonisation and never seems to have recovered.
 
 -   Increases in homozygosity (RoH ≥ 1 Mb) consistent with a 'spasmodic' rather than gradual decline
 
@@ -262,40 +247,35 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 -   Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals (e.g. 4-6;see also [de Dios et al., 2023](.https://elifesciences.org/reviewed-preprints/87928), [Nolen et al., 2024](https://www.sciencedirect.com/science/article/pii/S0006320724002568)
 
-
 -   Our DNA extraction + Library prep works well for museum specimens:
 
     -   use of legs keeps curators mostly happy
 
     -   ≥50% coverage at depth of ≥5X for \~175 yo specimens, ≥90% coverage at depth of ≥5X for \~120 yo specimens
-    
+
     -   further room for optimization
-
-
 
 ## [Ongoing work]{.bg-og}: Did fungal (or other) pathogens contribute to the regional extinction? {.smaller}
 
 ::: columns
 ::: {.column width="75%"}
-
 <br/>
 
-![](images/heatmapanno2.png) 
+![](images/heatmapanno2.png)
 :::
 
 ::: {.column width="25%"}
-
 <br/>
 
--   Metagenomic profiling using [aMeta]{.prog}  
+-   Metagenomic profiling using [aMeta]{.prog}\
     (<https://github.com/NBISweden/aMeta>)
 
 -   **Many issues**:
+
     -   sample size (specific)
     -   distinguishing *peri-* and *postmortem* degradation
     -   Unclear how much temporal resolution damage on historical DNA can offer
     -   high potential!
-
 :::
 :::
 
@@ -337,7 +317,7 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 
 <br>
 
-[More Info]{.b .bg-yellow}: 
+[More Info]{.b .bg-yellow}:
 
 {{< fa globe title="An envelope" >}} <https://saadarif.github.io>
 
@@ -346,4 +326,3 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 [the 'scrolltelling' experience]{.b}: <https://saadarif.github.io/BVW-LastDays>
 :::
 :::
-
