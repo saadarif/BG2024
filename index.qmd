@@ -42,7 +42,7 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 
 ## The spasmodic decline of *A. crataegi* in Britain? {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br/>
 
@@ -56,7 +56,7 @@ Images: [Todisco et al 2020, *Sci. Rep.*](https://www.nature.com/articles/s41598
 
 -   Anecdotal recordings of multiple releases of European stock (Pratt, 1983)
 :::
-:::
+:::::
 
 ::: footer
 Images: Dennis, RLH, 1977 *The British Butterflies*
@@ -100,7 +100,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ## Methods: Field work & library prep {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 <br/> ![](images/museum.jpg)
 :::
@@ -118,7 +118,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 -   Further details can be found in [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
 :::
-:::
+:::::
 
 ## [Results]{.bg-teal}: Data Quality and Yield {.smaller}
 
@@ -145,26 +145,26 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ## [Results]{.bg-teal}: British *A. crataegi* are distinct from European {.smaller}
 
-::: columns
+:::::::: columns
 ::: {.column width="30%"}
 ![](images/fig1a.png){width="400px"}
 :::
 
-::: {.column width="40%"}
+:::: {.column width="40%"}
 ::: {.fragment fragment-index="1"}
 ![](images/ac.png){.absolute top="160px" left="450px" width="75px"} ![](images/supppca_crop.png)
 :::
-:::
+::::
 
-::: {.column width="30%"}
+:::: {.column width="30%"}
 ::: {.fragment fragment-index="1"}
 -   PCA based on genotype likelihoods
 -   Isolation by distance pattern within [GB]{.bg-gb}
 -   Evidence of [European]{.bg-eu} stock releases in late 19th/early 20th century or potential mislabeling. Labelled as [European]{.bg-eu} for downstream analysis
 -   **Youngest** specimen (Herne bay, Kent, 1924) clusters with [European]{.bg-eu} specimens
 :::
-:::
-:::
+::::
+::::::::
 
 ::: footer
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
@@ -202,18 +202,18 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ## [Results]{.bg-teal}: No increase in *total* genetic load {.smaller}
 
-::: columns
+:::::: columns
 ::: {.column width="40%"}
 ![](images/ac.png){.absolute top="200px" left="-75px" width="75px"} ![](images/cb.png){.absolute top="550px" left="-75px" width="75px"} ![](images/fig4.jpg){width="375px"}
 :::
 
-::: {.column width="60%"}
+:::: {.column width="60%"}
 ::: {.absolute top="300px"}
 -   But there was an increase in **homozygous** missense (**ns**)and synonymous(\*) variants in [GB]{.bg-gb} *A. crataegi*
--   *Caveat*: Variant effects predicted by [snpEFF]{.prog} based on Ensembl annotation
+-   [Caveat]{.b .bg-red}: Variant effects predicted by [snpEFF]{.prog} based on Ensembl annotation
 :::
-:::
-:::
+::::
+::::::
 
 ::: footer
 [Whitla et al. 2024, *Mol Ecol*](https://doi.org/10.1111/mec.17518)
@@ -226,7 +226,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 ::: {.absolute bottom="0px"}
 -   An R~xy~ \>1 implies a relative increase in frequency in [GB]{.bg-gb} compared to [EU]{.bg-eu}, whereas \<1 implies a relative decrease
 
--   *Caveat*: low to very low sample sizes for allele frequency estimations
+-   [Caveat]{.b .bg-red}: low to very low sample sizes for allele frequency estimations
 :::
 
 ::: footer
@@ -245,7 +245,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 <br/>
 
--   Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals (e.g. 4-6;see also [de Dios et al., 2023](.https://elifesciences.org/reviewed-preprints/87928), [Nolen et al., 2024](https://www.sciencedirect.com/science/article/pii/S0006320724002568)
+-   Consistent differences in genomic erosion suggest these metrics could be helpful to monitor or identify threatened insect populations/species with a small number of individuals (e.g. 4-6 ;see also [de Dios et al., 2023](.https://elifesciences.org/reviewed-preprints/87928), [Nolen et al., 2024](https://www.sciencedirect.com/science/article/pii/S0006320724002568))
 
 -   Our DNA extraction + Library prep works well for museum specimens:
 
@@ -257,7 +257,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
 
 ## [Ongoing work]{.bg-og}: Did fungal (or other) pathogens contribute to the regional extinction? {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="75%"}
 <br/>
 
@@ -277,7 +277,7 @@ A complementary analysis on *Polyommatus icarus* common blue, using modern speci
     -   Unclear how much temporal resolution damage on historical DNA can offer
     -   high potential!
 :::
-:::
+:::::
 
 ::: footer
 Unpublished data
@@ -285,7 +285,7 @@ Unpublished data
 
 ## Acknowledgements {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/IMG-20230927-WA0001.jpg){fig-align="center" width="200px"}
 
@@ -325,4 +325,4 @@ Nigel Groome Studentship to RW by Dept. of BMS, Oxford Brookes University
 
 [the 'scrolltelling' experience]{.b}: <https://saadarif.github.io/BVW-LastDays>
 :::
-:::
+:::::

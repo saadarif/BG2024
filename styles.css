@@ -136,6 +136,10 @@ iframe.slide-deck {
   font-size: 80%;
 }
 
+.bg-red{
+  background-color: red;
+}
+
 .bg-yellow {
   background-color: #FFFF00;
 }
